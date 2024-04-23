@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="TypeOfHazard">
+        <item>Water leak</item>
+        <item>Garbage</item>
+        <item>Uncared for vegetation</item>
+        <item>other</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

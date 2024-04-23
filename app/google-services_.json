@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27832243739",
+    "project_id": "yogev-s-app",
+    "storage_bucket": "yogev-s-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27832243739:android:64e38f50b5204c49260abe",
+        "android_client_info": {
+          "package_name": "com.example.signinpage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvUTBgVY4K2q0CEkJ42bIZJckqCAO_mn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mMap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapsActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvLong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"/>
+
+        <TextView
+            android:id="@+id/tvLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnMoreActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#7d9339"
+        android:baselineAligned="false"
+        android:text="More Actions"
+        android:layout_marginStart="10sp"/>
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mvMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReportCurr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#7d9339"
+            android:baselineAligned="false"
+            android:text="Report Current Place"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+</LinearLayout>

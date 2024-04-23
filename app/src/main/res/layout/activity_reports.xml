@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReportsActivity"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9acd32"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReport"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15sp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnViewReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#7d9339"
+            android:baselineAligned="false"
+            android:text="View Report"
+            android:layout_marginStart="10sp"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
